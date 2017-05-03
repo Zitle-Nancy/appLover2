@@ -1,7 +1,6 @@
 /*
  * Ingresa el CSS del proyecto en este archivo
  */
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -18,9 +17,11 @@
 body {
   /* Establece la fuente de Google aquí */
   margin: 0 auto;
+  padding: 0;
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
+  font-family: Raleway, sans-serif;
 }
 
 img {
@@ -34,4 +35,79 @@ a {
 
 a:hover {
   color: #E95853;
+}
+link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+header{
+  position: fixed;
+  background:white;
+  width: 100%;
+  top: 0;
+}
+h2, h1,h4{
+  text-align: center;
+}
+footer{
+  background: #4f4b4b;
+  color: white;
+  text-align: center;
+  /*width: 100%;*/
+}
+.m-0{
+  font-size: 15px;
+}
+[class*= "mb-"]{
+  color: white;
+}
+.logo{
+  float: right;
+}
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+#home{
+  background-image: url("../assets/images/home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: 80px;
+  height: 554px;
+}
+#home .container{
+  color: white;
+  padding: 70px;
+}
+.text-home{
+  font-size: 53px;
+}
+.btn-home{
+  background: #2ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  font-size: 14px;  
+}
+#services{
+  background-color: #f17c72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+.box-services{
+  margin-top: 63px;
+}
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+#text-services{
+  text-align: center;
 }
