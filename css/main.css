@@ -50,6 +50,12 @@ header{
 h2, h1,h4{
   text-align: center;
 }
+footer{
+  background: #4f4b4b;
+  color: white;
+  text-align: center;
+  /*width: 100%;*/
+}
 .m-0{
   font-size: 15px;
 }
