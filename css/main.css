@@ -21,11 +21,12 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
   vertical-align: middle;
+  width: 100%;
 }
 
 a {
@@ -110,4 +111,20 @@ footer{
 }
 #text-services{
   text-align: center;
+}
+.work-img{
+  text-align: center;
+}
+.box-work{
+  float: left;
+  margin-left: 100px;
+}
+.box-work > img{
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+.box-work  > h4{
+  text-align: center;
+  margin-bottom: 50px;
 }
